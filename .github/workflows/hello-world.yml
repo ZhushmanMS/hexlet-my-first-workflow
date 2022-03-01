@@ -12,4 +12,5 @@ jobs:
       # checkout – клонирует репозиторий
       - uses: actions/checkout@v2
       # run – произвольная bash-команда
+      - name: Hello, world
       - run: make say-hello
